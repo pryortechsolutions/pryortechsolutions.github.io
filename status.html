@@ -5,6 +5,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
     <script type="text/javascript" src="curtain-menu.js"></script>
+    <script type="text/javascript" src="validateCaptcha.js"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Pryor Technical Solutions | BOOK SERVICE </title>
 
@@ -37,24 +38,37 @@
 <body>
     <div class="banner" style="background-color: #2f2527;">
         <div class="banner-header">
-                <h1>BOOK SERVICES</h1>
+                <h1>CHECK SERVICE STATUS</h1>
         </div>
     </div>
 
 
     <div class="offerings">
         <center>
-            <h1 style="color: #a52127">Welcome to our scheduling portal for new and returning clients! Please select from one of the following options below to begin the booking process.</h1>
+            <h1 style="color: #a52127">Welcome to our new status portal. Here, you can check the status of your repair or service!</h1>
         </div>
     </div>
     </center>
     </div>
 
     <div class="modern-workplace" style="background-color:#a52127;color:white; position: relative; top: 50px;">
-        <center><h1>Select a service:</h1>
-        <button style="color:white;" onclick="window.location.href='https://share.hsforms.com/19jMmUoXLQJCjnM3FYbrZ3As9sis';" class="details-button" style="background-color:none;color:black;border:solid black 1px;">Book Your Appointment</button><br><br>
+        <center><h1>Please enter in the service code provided to you by your technician:</h1>
+            <input type="text" id="textbox" class="textbox" placeholder="Enter your service code here:"><br>
+            <br>
+            <h2>Security Check:</h2>
+            <p>Enter in the CAPTCHA code seen below and press Submit.</p>
+            <div class="captcha-container">
+                <div id="captcha" class="captcha"></div><br>
+                <input style="width:60%;"class="textbox" type="text" id="captcha-input" placeholder="Enter CAPTCHA">
+                <br><br>
+                <button class="submit-btn" onclick="validateCaptcha()">Submit</button>
+            </div>
+        </button><br><br><br>
     </center>
     </div>
+    <br><br><br><br><br><br>
+    <center><h1>Did not receive a service code?</h1>
+        <p>Contact us to receive your code. Codes are typically send within 1-2 hours of dropoff.</p></center>
 
 
     <footer>

@@ -1,0 +1,528 @@
+
+body, html{
+    margin: 0;
+    background-color:#fff6e9;
+
+}
+
+a{
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.topnav {
+    background-color: #fff6e9;
+    width: 100%;
+    position: sticky;
+    top: -20px;
+    left: -60px;
+    overflow: hidden;
+    z-index:10;
+    border-bottom: solid #a52127 4px;
+  }
+  
+
+  .topnav a {
+    float: right;
+    color: #a52127;
+    text-align: center;
+    padding: 18px 16px;
+    margin-left: 7px;
+    position: relative;
+    top: -25px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .navbar-logo-container{
+    width: 250px;
+    height: 70px;
+  }
+  .navbarlogo{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+
+
+  .banner{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    top: -36px;
+  }
+
+
+  
+  .banner-header{
+    position: absolute;
+    top: 60px;
+    right:auto;
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:#a52127;
+    color: white;
+    font-size: xx-large;
+    padding: 2px 60px;
+    z-index: 3;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+  .topnav a:hover {
+    background-color: #a52127;
+    border-radius: 3px;
+    color: black;
+    transition: all .2s;
+  }
+  
+
+  .topnav a.active {
+    background-color: #a52127;
+    border-radius: 3px;
+    color: white;
+  }
+
+  .offerings{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: large;
+    color: white;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+  }
+
+  .services{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+    position: relative; 
+    justify-content: left;
+    top:30px;
+    background-color: #2f2527;
+    color:white;
+    width: 80%;
+    border-radius: 3px;
+    line-height: 30px;
+  }
+
+  p{
+    font-family: "Arvo", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  h1{
+    font-family: "Arvo", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .it-services{
+    background-color: #5f678a;
+    color: white;
+    position: relative;
+    top: 30px;
+    padding: 16px 30px;
+  }
+
+  .web-development{
+    background-color: #959dc2;
+    color: white;
+    position: relative;
+    top: 30px;
+    padding: 16px 30px;
+  }
+
+  .consultancy{
+    background-color: #8795d3;
+    color: white;
+    position: relative;
+    top: 30px;
+    padding: 16px 30px;
+  }
+
+  .media{
+    background-color: #737daa;
+    color: white;
+    position: relative;
+    top: 30px;
+    padding: 16px 30px;
+  }
+
+  .roof-inspections{
+    background-color: #8d8d71;
+    color: white;
+    position: relative;
+    top: 30px;
+    padding: 16px 30px;
+  }
+
+  .hazard-inspection{
+    background-color: #707063;
+    color: white;
+    position: relative;
+    top: 30px;
+    padding: 16px 30px;
+  }
+
+  .footer{
+    font-family: "Arimo", sans-serif;
+    position: relative;
+    padding: 16px 30px;
+    top: 160px;
+    background-color:#a52127;
+    color: white;
+  }
+
+  .contact-button{
+    background-color:#a52127;
+    color: white;
+    border-radius: 3px;
+  }
+
+  a.contact-button{
+    color: white;
+    border-radius: 3px;
+  }
+
+  .contact-button:hover {
+    background-color: #a52127;
+    border-radius: 3px;
+    color: white;
+    transition: all .2s;
+  }
+
+
+.details-button{
+  background-color: transparent;
+  color: white;
+  border: solid white 1px;
+  border-radius: 3px;
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal; 
+  font-size: x-large;
+  padding: 16px 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 70%;
+
+}
+
+.details-button:hover{
+  background-color: white;
+  color: #a52127;
+  border: solid white 1px;
+  border-radius: 3px;
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;  
+  font-size: x-large;
+  padding: 16px 16px;
+  transition: all .2s;
+}
+
+label{
+  font-family: "Exo 2", sans-serif; 
+  display: inline-block; 
+  width: 210px; 
+}
+
+
+.registration{
+  background-color: white; 
+  position: relative; 
+  top: -60px;
+}
+
+h2{
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3{
+  font-family: "Exo 2", sans-serif; 
+}
+
+ul{
+  font-family: "Arimo", sans-serif;
+}
+
+li{
+  font-family: "Arimo", sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(165, 33, 39, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: normal; ; 
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
+}
+
+.hamburger{
+  display:none;
+}
+
+@media (max-width: 960px) {
+  .topnav a{
+    display: none;
+  }
+  .hamburger{
+    display:block;
+    color:#a52127;
+    font-size:60px;
+    cursor:pointer; 
+    position: relative; 
+    top: -35px;
+    right: 30px;
+    float: right;
+  }
+
+  .navbar-logo-container{
+    position: relative;
+    top: 25px;
+  }
+
+  .banner-header{
+    font-size: x-large;
+  }
+}
+
+
+.desktop-repair{
+  background-color: #a52127;
+  color: white;
+  position: relative;
+  top: 50px;
+  padding: 16px 30px;
+}
+
+.electronics{
+  background-color: #2f2527;
+  color: white;
+  position: relative;
+  top: 80px;
+  padding: 16px 30px;
+}
+
+
+.residential{
+  background-color: #a52127;
+  color: white;
+  position: relative;
+  top: 110px;
+  padding: 16px 30px;
+}
+
+.commercial{
+  background-color: #2f2527;
+  color: white;
+  position: relative;
+  top: 140px;
+  padding: 16px 30px;
+}
+
+.text-square {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: #a52127;
+  color:#fff6e9;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  margin-right: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.slideshow-container {
+  position: relative;
+  background: #2f2527;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  position: relative;
+  top: 10px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prev {
+  position: relative;
+  top: 10px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+q {
+  font-family: "Arvo", serif;
+  font-weight: 700;
+  font-style: italic; 
+  font-size:auto;
+  position: relative;
+}
+
+
+.author {color: #fff6e9;}
+
+.textbox {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.textbox:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+

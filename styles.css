@@ -510,3 +510,42 @@ q {
 
 
 .author {color: #fff6e9;}
+
+.textbox {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.textbox:focus {
+  border-color: #007BFF;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+.captcha {
+  font-size: 40px;
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: transparent;
+
+  width: 60%;
+  border: 1px solid #ccc;
+  user-select: none;
+}
+.input-box {
+  margin-left: 10px;
+}
+.submit-btn {
+  margin-left: 10px;
+  padding: 5px 15px;
+  background-color: white;
+  border-radius: 3px;
+  color: #a52127;
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+}
