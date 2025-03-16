@@ -13,7 +13,7 @@ function validateCaptcha() {
 
     if (userInput === captchaText) {
         // Corrected syntax for window.location.href
-        window.location.href = 'https://pryortechsolutions.com/status/' + document.getElementById('textbox').value + '.html';
+        window.location.href = 'https://pryortechsolutions.com/services/' + document.getElementById('textbox').value + '.html';
     } else {
         alert('CAPTCHA did not match. Please try again.');
     }
